@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author raunak
+ * @author samhitha
  */
 public class UserAccountDirectory {
     
@@ -24,6 +24,7 @@ public class UserAccountDirectory {
         return userAccountList;
     }
     
+    //user auth here
     public UserAccount authenticateUser(String username, String password){
         for (UserAccount ua : userAccountList)
             if (ua.getUsername().equals(username) && ua.getPassword().equals(password)){
