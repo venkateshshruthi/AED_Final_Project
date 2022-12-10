@@ -82,7 +82,8 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
         backJButton = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(102, 102, 255));
+        setForeground(new java.awt.Color(255, 255, 255));
 
         enterpriseLabel.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
         enterpriseLabel.setText("ENTERPRISE");
@@ -118,7 +119,9 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(workRequestJTable);
 
-        assignJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        assignJButton.setBackground(new java.awt.Color(255, 51, 51));
+        assignJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        assignJButton.setForeground(new java.awt.Color(255, 255, 255));
         assignJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/user_up.png"))); // NOI18N
         assignJButton.setText("ASSIGN TO ME");
         assignJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -127,7 +130,9 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        processJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        processJButton.setBackground(new java.awt.Color(255, 51, 51));
+        processJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        processJButton.setForeground(new java.awt.Color(255, 255, 255));
         processJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/user_up.png"))); // NOI18N
         processJButton.setText("PROCESS");
         processJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -136,7 +141,9 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        refreshJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        refreshJButton.setBackground(new java.awt.Color(255, 51, 51));
+        refreshJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        refreshJButton.setForeground(new java.awt.Color(255, 255, 255));
         refreshJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/Button-Refresh-icon.png"))); // NOI18N
         refreshJButton.setText("REFRESH");
         refreshJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -145,7 +152,9 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        backJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        backJButton.setBackground(new java.awt.Color(255, 51, 51));
+        backJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        backJButton.setForeground(new java.awt.Color(255, 255, 255));
         backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/prev-48.png"))); // NOI18N
         backJButton.setText("BACK");
         backJButton.addActionListener(new java.awt.event.ActionListener() {

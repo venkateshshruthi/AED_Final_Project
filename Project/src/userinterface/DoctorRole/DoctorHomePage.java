@@ -51,9 +51,11 @@ public class DoctorHomePage extends javax.swing.JPanel {
         manageOrganizationJButton2 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(102, 102, 255));
 
-        manageOrganizationJButton1.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        manageOrganizationJButton1.setBackground(new java.awt.Color(255, 51, 51));
+        manageOrganizationJButton1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        manageOrganizationJButton1.setForeground(new java.awt.Color(255, 255, 255));
         manageOrganizationJButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/rss.png"))); // NOI18N
         manageOrganizationJButton1.setText("DOCTOR WORK REQUEST");
         manageOrganizationJButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -62,7 +64,9 @@ public class DoctorHomePage extends javax.swing.JPanel {
             }
         });
 
-        manageOrganizationJButton2.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        manageOrganizationJButton2.setBackground(new java.awt.Color(255, 51, 51));
+        manageOrganizationJButton2.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        manageOrganizationJButton2.setForeground(new java.awt.Color(255, 255, 255));
         manageOrganizationJButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/user_ok.png"))); // NOI18N
         manageOrganizationJButton2.setText("WORK REQUEST STATUS");
         manageOrganizationJButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -72,6 +76,7 @@ public class DoctorHomePage extends javax.swing.JPanel {
         });
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Blue/Home-36.png"))); // NOI18N
         jLabel1.setText("DOCTOR - HOME PAGE");
 
