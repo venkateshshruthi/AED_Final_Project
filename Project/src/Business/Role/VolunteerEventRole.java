@@ -16,13 +16,13 @@ import userinterface.VolunteerEventRole.VolunteerEventHomePage;
 
 /**
  *
- * @author InfiniteLoops
+ * @author Shruthi Venkatesh
  */
+//creating volunteer event role
 public class VolunteerEventRole extends Role {
 
     @Override
     public JPanel createWorkArea(JPanel userProcessContainer, UserAccount account, Organization organization, Enterprise enterprise, Network network, EcoSystem business) {
         return new VolunteerEventHomePage(userProcessContainer, account, (VolunteerEventOrganization) organization, network, enterprise, business);
     }
-
 }
