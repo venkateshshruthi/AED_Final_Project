@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.AdministrativeCampRole;
+package userinterface.AdministrativeEventRole;
 
 import Business.Employee.Employee;
 import Business.Enterprise.Enterprise;
@@ -17,15 +17,13 @@ import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 import javax.mail.*;
 import java.util.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
  *
  * @author Shruthi Venkatesh
  */
-public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
+public class VolunteerEventApprovalJPanel extends javax.swing.JPanel {
 
     private Enterprise enterprise;
     private JPanel userProcessContainer;
@@ -39,7 +37,7 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
     /**
      * Creates new form VolunteerAprovalJPanel
      */
-    public VolunteerCampApprovalJPanel(JPanel userProcessContainer, Enterprise enterprise, UserAccount account) {
+    public VolunteerEventApprovalJPanel(JPanel userProcessContainer, Enterprise enterprise, UserAccount account) {
         initComponents();
         this.userProcessContainer = userProcessContainer;
         this.enterprise = enterprise;
@@ -89,7 +87,8 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
         backJButton = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(102, 102, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
+        setBorder(new javax.swing.border.MatteBorder(null));
 
         workRequestJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -124,6 +123,7 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
             }
         });
 
+        processJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
         processJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/user_ok.png"))); // NOI18N
         processJButton.setText("APPROVE");
         processJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -133,15 +133,12 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
         });
 
         valueLabel.setFont(new java.awt.Font("Tahoma", 0, 22)); // NOI18N
-        valueLabel.setForeground(new java.awt.Color(255, 255, 255));
         valueLabel.setText("<value>");
 
-        enterpriseLabel.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
-        enterpriseLabel.setForeground(new java.awt.Color(255, 255, 255));
-        enterpriseLabel.setText("Enterprise Name:");
+        enterpriseLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        enterpriseLabel.setText("ENTERPRISE NAME: ");
 
-        backJButton.setBackground(new java.awt.Color(255, 51, 51));
-        backJButton.setForeground(new java.awt.Color(255, 255, 255));
+        backJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
         backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/prev-48.png"))); // NOI18N
         backJButton.setText("BACK");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -151,9 +148,8 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
         });
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Blue/rss.png"))); // NOI18N
-        jLabel7.setText("VOLUNTEER CAMP ROLE APPROVAL");
+        jLabel7.setText("VOLUNTEER REGISTRATION DETAILS");
         jLabel7.setBorder(new javax.swing.border.MatteBorder(null));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -161,52 +157,48 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(39, 39, 39)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(5, 5, 5)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(enterpriseLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(valueLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 488, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(refreshJButton))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(backJButton)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(processJButton))))
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 975, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(351, 351, 351)
-                        .addComponent(jLabel7)))
-                .addContainerGap(73, Short.MAX_VALUE))
+                .addGap(73, 73, 73)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGroup(layout.createSequentialGroup()
+                            .addGap(0, 0, Short.MAX_VALUE)
+                            .addComponent(processJButton))
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(layout.createSequentialGroup()
+                                    .addComponent(enterpriseLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(valueLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 396, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 490, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(refreshJButton)))
+                    .addComponent(backJButton)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 857, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(71, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(31, 31, 31)
-                .addComponent(jLabel7)
+                .addGap(30, 30, 30)
+                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(refreshJButton)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(valueLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(refreshJButton))
-                    .addComponent(enterpriseLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(enterpriseLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(valueLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(backJButton)
-                    .addComponent(processJButton))
-                .addContainerGap(123, Short.MAX_VALUE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(10, 10, 10)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(processJButton)
+                    .addComponent(backJButton))
+                .addContainerGap(161, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
     private void refreshJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_refreshJButtonActionPerformed
-
+   populateRequestTable();
     }//GEN-LAST:event_refreshJButtonActionPerformed
 
     private void processJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_processJButtonActionPerformed
@@ -247,8 +239,13 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
                         }
 
                         for (Role r : org.getSupportedRole()) {
+                            //System.out.println(r);
+                            //System.out.println(r.toString());
                             if (r.toString().equals("VolunteerEventRole")) {
                                 role = r;
+                                //System.out.print(role);
+                                //org.getUserAccountDirectory().createUserAccount(request.getUsername(), request.getPassword(), employee, role);
+                                // break;
                             }
                         }
                     }
@@ -259,10 +256,9 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
         request.setStatus("Completed");
         populateRequestTable();
         if (request.getStatus().equals("Completed")) {
-           
             // System.out.println("Mail Begins");
             String ab = request.getVolunteerName();
-            emailMsgTxt = "Hi " + ab.toUpperCase() + ", " + "\n" + "\n" + "Your User Account has been Created. You may login into the system now!" + "\n" + "\n" + "Regards," + "\n" + "NGO Admin";
+            emailMsgTxt = "Hi " + ab.toUpperCase() + ", " + "\n" + "\n" + "Your User Account got Created, You can login into the system now" + "\n" + "\n" + "Regards," + "\n" + "NGO Admin";
             emailSubjectTxt = "Volunteer Request Approved";
             emailFromAddress = SendMailUsingAuthentication.SMTP_AUTH_USER;
 
@@ -284,12 +280,11 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
             SendMailUsingAuthentication smtpMailSender = new SendMailUsingAuthentication();
             try {
                 smtpMailSender.postMail(emailReceipeint, emailSubjectTxt, emailMsgTxt, emailFromAddress);
-                 JOptionPane.showMessageDialog(null, "Request Approved and mail has been sent to Volunteer. Volunteer can request for Health Camp now!");
+                JOptionPane.showMessageDialog(null, "Request Approved and mail has been sent to Volunteer");
             } catch (MessagingException ex) {
-            //    Logger.getLogger(Home.class.getName()).log(Level.SEVERE, null, ex);
-                System.out.println("Exception");
+                //Logger.getLogger(Home.class.getName()).log(Level.SEVERE, null, ex);
             }
-          //  System.out.println("Sucessfully Sent mail to All Users");
+        //    System.out.println("Sucessfully Sent mail to All Users");
 
         }
     }//GEN-LAST:event_processJButtonActionPerformed

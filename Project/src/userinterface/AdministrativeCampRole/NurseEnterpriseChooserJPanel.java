@@ -20,7 +20,7 @@ import userinterface.NurseRole.VolunteerNurseHomePage;
 
 /**
  *
- * @author InfiniteLoops
+ * @author Shruthi Venkatesh
  */
 public class NurseEnterpriseChooserJPanel extends javax.swing.JPanel {
 
@@ -62,13 +62,15 @@ public class NurseEnterpriseChooserJPanel extends javax.swing.JPanel {
         submitButton = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(102, 102, 255));
         setBorder(new javax.swing.border.MatteBorder(null));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Network");
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Enterprise Type");
 
         enterpriseTypeJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -86,6 +88,7 @@ public class NurseEnterpriseChooserJPanel extends javax.swing.JPanel {
         });
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Enterprise");
 
         enterpriseJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -95,7 +98,9 @@ public class NurseEnterpriseChooserJPanel extends javax.swing.JPanel {
             }
         });
 
-        submitButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        submitButton.setBackground(new java.awt.Color(255, 51, 51));
+        submitButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        submitButton.setForeground(new java.awt.Color(255, 255, 255));
         submitButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/user_ok.png"))); // NOI18N
         submitButton.setText("SUBMIT");
         submitButton.addActionListener(new java.awt.event.ActionListener() {
@@ -105,6 +110,7 @@ public class NurseEnterpriseChooserJPanel extends javax.swing.JPanel {
         });
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Blue/rss.png"))); // NOI18N
         jLabel7.setText("NURSE ENTERPRISE PANEL");
         jLabel7.setBorder(new javax.swing.border.MatteBorder(null));

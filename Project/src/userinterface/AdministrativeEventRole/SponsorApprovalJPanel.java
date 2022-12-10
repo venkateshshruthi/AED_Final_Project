@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.AdministrativeCampRole;
+package userinterface.AdministrativeEventRole;
 
 import Business.Employee.Employee;
 import Business.Enterprise.Enterprise;
@@ -17,15 +17,13 @@ import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 import javax.mail.*;
 import java.util.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
  *
  * @author Shruthi Venkatesh
  */
-public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
+public class SponsorApprovalJPanel extends javax.swing.JPanel {
 
     private Enterprise enterprise;
     private JPanel userProcessContainer;
@@ -39,7 +37,7 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
     /**
      * Creates new form VolunteerAprovalJPanel
      */
-    public VolunteerCampApprovalJPanel(JPanel userProcessContainer, Enterprise enterprise, UserAccount account) {
+    public SponsorApprovalJPanel(JPanel userProcessContainer, Enterprise enterprise, UserAccount account) {
         initComponents();
         this.userProcessContainer = userProcessContainer;
         this.enterprise = enterprise;
@@ -53,7 +51,7 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
 
         model.setRowCount(0);
         for (WorkRequest request : userAccount.getWorkQueue().getWorkRequestList()) {
-            if (request.toString().equals("Volunteer")) {
+            if (request.toString().equals("Sponsor")) {
                 Object[] row = new Object[8];
                 row[0] = request;
                 row[1] = request.getVolunteerName();
@@ -63,7 +61,6 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
                 row[5] = request.getMailid();
                 row[6] = request.getRole();
                 row[7] = request.getStatus();
-
                 //String result = ((VolunteerApprovalStatus) request).getTestResult();
                 // row[3] = result == null ? "Waiting" : result;
                 model.addRow(row);
@@ -89,7 +86,7 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
         backJButton = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(102, 102, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
 
         workRequestJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -124,6 +121,7 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
             }
         });
 
+        processJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
         processJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/user_ok.png"))); // NOI18N
         processJButton.setText("APPROVE");
         processJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -133,15 +131,12 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
         });
 
         valueLabel.setFont(new java.awt.Font("Tahoma", 0, 22)); // NOI18N
-        valueLabel.setForeground(new java.awt.Color(255, 255, 255));
         valueLabel.setText("<value>");
 
         enterpriseLabel.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
-        enterpriseLabel.setForeground(new java.awt.Color(255, 255, 255));
-        enterpriseLabel.setText("Enterprise Name:");
+        enterpriseLabel.setText("ENTERPRISE NAME :");
 
-        backJButton.setBackground(new java.awt.Color(255, 51, 51));
-        backJButton.setForeground(new java.awt.Color(255, 255, 255));
+        backJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
         backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/prev-48.png"))); // NOI18N
         backJButton.setText("BACK");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -151,9 +146,8 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
         });
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Blue/rss.png"))); // NOI18N
-        jLabel7.setText("VOLUNTEER CAMP ROLE APPROVAL");
+        jLabel7.setText("SPONSOR REGISTRATION DETAILS");
         jLabel7.setBorder(new javax.swing.border.MatteBorder(null));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -163,50 +157,48 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(39, 39, 39)
+                        .addGap(273, 273, 273)
+                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 443, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(70, 70, 70)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(5, 5, 5)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(enterpriseLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(valueLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 488, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(refreshJButton))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(backJButton)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(processJButton))))
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 975, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(351, 351, 351)
-                        .addComponent(jLabel7)))
-                .addContainerGap(73, Short.MAX_VALUE))
+                                .addComponent(backJButton)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(processJButton))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(layout.createSequentialGroup()
+                                    .addComponent(enterpriseLabel)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(valueLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 333, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(180, 180, 180)
+                                    .addComponent(refreshJButton))
+                                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 857, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(76, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(31, 31, 31)
+                .addContainerGap()
                 .addComponent(jLabel7)
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGap(31, 31, 31)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(refreshJButton)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(valueLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(refreshJButton))
-                    .addComponent(enterpriseLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(enterpriseLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(valueLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(backJButton)
-                    .addComponent(processJButton))
-                .addContainerGap(123, Short.MAX_VALUE))
+                    .addComponent(processJButton)
+                    .addComponent(backJButton))
+                .addContainerGap(88, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
     private void refreshJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_refreshJButtonActionPerformed
-
+        populateRequestTable();
     }//GEN-LAST:event_refreshJButtonActionPerformed
 
     private void processJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_processJButtonActionPerformed
@@ -223,7 +215,26 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
             //System.out.println(request.getRole().equals(org.getOrganType().VolunteerCamp.toString()));
             //System.out.println(request.getRole());
             //System.out.println(request.getRole().equals("VolunteerCampRole"));
-            if (request.getRole().equals("VolunteerCampRole")) {
+            if (request.getRole().equals("GeneralRole")) {
+                org.getEmployeeDirectory().createEmployee(request.getVolunteerName());
+                for (Employee e : org.getEmployeeDirectory().getEmployeeList()) {
+                    if (request.getVolunteerName() == e.getName()) {
+                        employee = e;
+                    }
+                }
+                for (Role r : org.getSupportedRole()) {
+                    //System.out.println(r);
+                    //System.out.println(request.getRole().equals(r.toString()));
+                    //System.out.println(r.toString());
+                    if (request.getRole().equals(r.toString())) {
+                        role = r;
+                        //System.out.println(r);
+                        System.out.println(role);
+                    }
+                }
+                org.getUserAccountDirectory().createUserAccount(request.getUsername(), request.getPassword(), employee, role);
+                break;
+            } else if (request.getRole().equals("StudentRole")) {
                 org.getEmployeeDirectory().createEmployee(request.getVolunteerName());
                 for (Employee e : org.getEmployeeDirectory().getEmployeeList()) {
                     if (request.getVolunteerName() == e.getName()) {
@@ -231,39 +242,37 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
                     }
                     for (Role r : org.getSupportedRole()) {
                         //System.out.println(r);
-                        if (request.getRole().equals("VolunteerCampRole")) {
+                        if (request.getRole().equals(r.toString())) {
                             role = r;
                         }
                     }
                 }
                 org.getUserAccountDirectory().createUserAccount(request.getUsername(), request.getPassword(), employee, role);
                 break;
-            } else if (request.getRole().equals("VolunteerEventRole")) {
-                if (org.toString().equals("Event Organization")) {
-                    org.getEmployeeDirectory().createEmployee(request.getVolunteerName());
-                    for (Employee e : org.getEmployeeDirectory().getEmployeeList()) {
-                        if (request.getVolunteerName() == e.getName()) {
-                            employee = e;
-                        }
-
-                        for (Role r : org.getSupportedRole()) {
-                            if (r.toString().equals("VolunteerEventRole")) {
-                                role = r;
-                            }
+            } else if (request.getRole().equals("CorporateRole")) {
+                org.getEmployeeDirectory().createEmployee(request.getVolunteerName());
+                for (Employee e : org.getEmployeeDirectory().getEmployeeList()) {
+                    if (request.getVolunteerName() == e.getName()) {
+                        employee = e;
+                    }
+                    for (Role r : org.getSupportedRole()) {
+                        //System.out.println(r);
+                        if (request.getRole().equals(r.toString())) {
+                            role = r;
                         }
                     }
-                    org.getUserAccountDirectory().createUserAccount(request.getUsername(), request.getPassword(), employee, role);
                 }
+                org.getUserAccountDirectory().createUserAccount(request.getUsername(), request.getPassword(), employee, role);
+                break;
             }
         }
         request.setStatus("Completed");
         populateRequestTable();
         if (request.getStatus().equals("Completed")) {
-           
             // System.out.println("Mail Begins");
             String ab = request.getVolunteerName();
             emailMsgTxt = "Hi " + ab.toUpperCase() + ", " + "\n" + "\n" + "Your User Account has been Created. You may login into the system now!" + "\n" + "\n" + "Regards," + "\n" + "NGO Admin";
-            emailSubjectTxt = "Volunteer Request Approved";
+            emailSubjectTxt = "Sponsor Request Approved";
             emailFromAddress = SendMailUsingAuthentication.SMTP_AUTH_USER;
 
             // Add List of Email address to who email needs to be sent to
@@ -284,12 +293,11 @@ public class VolunteerCampApprovalJPanel extends javax.swing.JPanel {
             SendMailUsingAuthentication smtpMailSender = new SendMailUsingAuthentication();
             try {
                 smtpMailSender.postMail(emailReceipeint, emailSubjectTxt, emailMsgTxt, emailFromAddress);
-                 JOptionPane.showMessageDialog(null, "Request Approved and mail has been sent to Volunteer. Volunteer can request for Health Camp now!");
+                JOptionPane.showMessageDialog(null, "Request Approved and mail has been sent to the Sponsor. Sponsors can enroll for FundRaiser Events!");
             } catch (MessagingException ex) {
-            //    Logger.getLogger(Home.class.getName()).log(Level.SEVERE, null, ex);
-                System.out.println("Exception");
+                //Logger.getLogger(Home.class.getName()).log(Level.SEVERE, null, ex);
             }
-          //  System.out.println("Sucessfully Sent mail to All Users");
+            System.out.println("Sucessfully Sent mail to All Users - Sponsor");
 
         }
     }//GEN-LAST:event_processJButtonActionPerformed

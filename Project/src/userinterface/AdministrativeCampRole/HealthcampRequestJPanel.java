@@ -29,7 +29,7 @@ import org.jfree.data.category.DefaultCategoryDataset;
 
 /**
  *
- * @author raunak
+ * @author Shruthi Venkatesh
  */
 public class HealthcampRequestJPanel extends javax.swing.JPanel {
 
@@ -93,7 +93,7 @@ public class HealthcampRequestJPanel extends javax.swing.JPanel {
         assignJButton1 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(102, 102, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         workRequestJTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -126,7 +126,9 @@ public class HealthcampRequestJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 980, 210));
 
-        pieBtn.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        pieBtn.setBackground(new java.awt.Color(255, 51, 51));
+        pieBtn.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        pieBtn.setForeground(new java.awt.Color(255, 255, 255));
         pieBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/user_download.png"))); // NOI18N
         pieBtn.setText("GENERATE BAR CHART");
         pieBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -146,7 +148,9 @@ public class HealthcampRequestJPanel extends javax.swing.JPanel {
         });
         add(refreshJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 20, -1, -1));
 
-        backJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        backJButton.setBackground(new java.awt.Color(255, 51, 51));
+        backJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        backJButton.setForeground(new java.awt.Color(255, 255, 255));
         backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/prev-36.png"))); // NOI18N
         backJButton.setText(" BACK");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -156,7 +160,9 @@ public class HealthcampRequestJPanel extends javax.swing.JPanel {
         });
         add(backJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
 
-        assignJButton1.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        assignJButton1.setBackground(new java.awt.Color(255, 51, 51));
+        assignJButton1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        assignJButton1.setForeground(new java.awt.Color(255, 255, 255));
         assignJButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/rss.png"))); // NOI18N
         assignJButton1.setText("VIEW DETAILS");
         assignJButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -167,6 +173,7 @@ public class HealthcampRequestJPanel extends javax.swing.JPanel {
         add(assignJButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 290, 230, -1));
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Blue/rss.png"))); // NOI18N
         jLabel7.setText("HEALTH CAMP REQUEST PANEL");
         jLabel7.setBorder(new javax.swing.border.MatteBorder(null));

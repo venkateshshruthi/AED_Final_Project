@@ -9,7 +9,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author raunak
+ * @author Shruthi Venkatesh
  */
 public class AdminWorkCampAreaJPanel extends javax.swing.JPanel {
 
@@ -49,15 +49,19 @@ public class AdminWorkCampAreaJPanel extends javax.swing.JPanel {
         ManageUserBtn = new javax.swing.JButton();
         HealthCampBtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(102, 102, 255));
         setPreferredSize(new java.awt.Dimension(1546, 471));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Blue/Home-36.png"))); // NOI18N
         jLabel1.setText("HEALTHCAMP ADMINISTRATOR HOME");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, -1, -1));
 
+        manageEmployeeJButton.setBackground(new java.awt.Color(255, 51, 51));
+        manageEmployeeJButton.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        manageEmployeeJButton.setForeground(new java.awt.Color(255, 255, 255));
         manageEmployeeJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/user_up.png"))); // NOI18N
         manageEmployeeJButton.setText("MANAGE EMPLOYEE");
         manageEmployeeJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -67,6 +71,9 @@ public class AdminWorkCampAreaJPanel extends javax.swing.JPanel {
         });
         add(manageEmployeeJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 180, 270, 40));
 
+        manageOrganizationJButton.setBackground(new java.awt.Color(255, 51, 51));
+        manageOrganizationJButton.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        manageOrganizationJButton.setForeground(new java.awt.Color(255, 255, 255));
         manageOrganizationJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/user_up.png"))); // NOI18N
         manageOrganizationJButton.setText("MANAGE ORGANIZATION");
         manageOrganizationJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -77,12 +84,16 @@ public class AdminWorkCampAreaJPanel extends javax.swing.JPanel {
         add(manageOrganizationJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 130, 270, 40));
 
         enterpriseLabel.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
+        enterpriseLabel.setForeground(new java.awt.Color(255, 255, 255));
         enterpriseLabel.setText("ENTERPRISE:");
         add(enterpriseLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 90, 160, 30));
 
         valueLabel.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
         add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 90, 300, 30));
 
+        VolunteerApprovalBtn.setBackground(new java.awt.Color(255, 51, 51));
+        VolunteerApprovalBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        VolunteerApprovalBtn.setForeground(new java.awt.Color(255, 255, 255));
         VolunteerApprovalBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/user_ok.png"))); // NOI18N
         VolunteerApprovalBtn.setText("VOLUNTEER APPROVAL");
         VolunteerApprovalBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -92,6 +103,9 @@ public class AdminWorkCampAreaJPanel extends javax.swing.JPanel {
         });
         add(VolunteerApprovalBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 280, 270, 40));
 
+        ManageUserBtn.setBackground(new java.awt.Color(255, 51, 51));
+        ManageUserBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        ManageUserBtn.setForeground(new java.awt.Color(255, 255, 255));
         ManageUserBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/user_up.png"))); // NOI18N
         ManageUserBtn.setText("MANAGE USER");
         ManageUserBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -101,6 +115,9 @@ public class AdminWorkCampAreaJPanel extends javax.swing.JPanel {
         });
         add(ManageUserBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 230, 270, 40));
 
+        HealthCampBtn.setBackground(new java.awt.Color(255, 51, 51));
+        HealthCampBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        HealthCampBtn.setForeground(new java.awt.Color(255, 255, 255));
         HealthCampBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/rss.png"))); // NOI18N
         HealthCampBtn.setText("HEALTH CAMP REQUEST");
         HealthCampBtn.addActionListener(new java.awt.event.ActionListener() {

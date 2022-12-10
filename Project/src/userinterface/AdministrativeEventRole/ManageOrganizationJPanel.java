@@ -2,8 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package userinterface.AdministrativeCampRole;
+package userinterface.AdministrativeEventRole;
 
+import userinterface.AdministrativeCampRole.*;
 import Business.Enterprise.Enterprise;
 import Business.Enterprise.Enterprise.EnterpriseType;
 import Business.Network.Network;
@@ -24,7 +25,6 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
     private Enterprise enterprise;
     private JPanel userProcessContainer;
     private OrganizationDirectory directory;
-
     /**
      * Creates new form ManageOrganizationJPanel
      */
@@ -94,7 +94,7 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         jLabel7 = new javax.swing.JLabel();
         deleteJButton = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(102, 102, 255));
+        setBackground(new java.awt.Color(204, 204, 255));
 
         organizationJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -125,11 +125,9 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
             organizationJTable.getColumnModel().getColumn(1).setResizable(false);
         }
 
-        addJButton.setBackground(new java.awt.Color(255, 51, 51));
-        addJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        addJButton.setForeground(new java.awt.Color(255, 255, 255));
+        addJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
         addJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/add_user.png"))); // NOI18N
-        addJButton.setText("ADD ORGANIZATION");
+        addJButton.setText("ADD");
         addJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 addJButtonActionPerformed(evt);
@@ -144,13 +142,10 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         });
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Organization Type ");
 
-        backJButton.setBackground(new java.awt.Color(255, 51, 51));
-        backJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        backJButton.setForeground(new java.awt.Color(255, 255, 255));
-        backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/prev-36.png"))); // NOI18N
+        backJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/prev-48.png"))); // NOI18N
         backJButton.setText("BACK");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -159,14 +154,11 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         });
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Blue/rss.png"))); // NOI18N
-        jLabel7.setText("ORGANIZATION MANAGEMENT - CAMP");
+        jLabel7.setText("ORGANIZATION MANAGEMENT");
         jLabel7.setBorder(new javax.swing.border.MatteBorder(null));
 
-        deleteJButton.setBackground(new java.awt.Color(255, 51, 51));
-        deleteJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        deleteJButton.setForeground(new java.awt.Color(255, 255, 255));
+        deleteJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
         deleteJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/del_user.png"))); // NOI18N
         deleteJButton.setText("DELETE");
         deleteJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -180,41 +172,43 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(99, 99, 99)
+                .addGap(111, 111, 111)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 480, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGroup(layout.createSequentialGroup()
                             .addComponent(jLabel1)
-                            .addGap(18, 18, 18)
-                            .addComponent(organizationJComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(backJButton)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(addJButton)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(deleteJButton))
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 480, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(jLabel7))
-                .addContainerGap(195, Short.MAX_VALUE))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(organizationJComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 406, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(17, 17, 17)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(114, 114, 114)
+                        .addComponent(backJButton)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(addJButton)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(deleteJButton)))
+                .addContainerGap(183, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(13, 13, 13)
+                .addComponent(jLabel7)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(28, 28, 28)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(organizationJComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel1))
-                .addGap(33, 33, 33)
+                .addGap(28, 28, 28)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(backJButton)
                     .addComponent(addJButton)
+                    .addComponent(backJButton)
                     .addComponent(deleteJButton))
-                .addContainerGap(187, Short.MAX_VALUE))
+                .addContainerGap(249, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -223,8 +217,7 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         OrganizationType type = (OrganizationType) organizationJComboBox.getSelectedItem();
         enterprise.getOrganizationDirectory().createOrganization(type);
         populateTable();
-        JOptionPane.showMessageDialog(null, "An Organization has been added successfully");
-        
+        JOptionPane.showMessageDialog(null, "An Organization has ben added successfully");
     }//GEN-LAST:event_addJButtonActionPerformed
 
     private void backJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backJButtonActionPerformed
@@ -253,7 +246,6 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         }else{
                JOptionPane.showMessageDialog(null, "Please select a row");
         }
-        
     }//GEN-LAST:event_deleteJButtonActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
