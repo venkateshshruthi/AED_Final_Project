@@ -19,7 +19,7 @@ import java.util.logging.*;
 
 /**
  *
- * @author MyPC1
+ * @author combined
  */
 public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 

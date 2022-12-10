@@ -22,7 +22,7 @@ import java.util.logging.*;
 
 /**
  *
- * @author jo-ji
+ * @author Yashwanth
  */
 public class SendHospitalRequest extends javax.swing.JPanel {
 
@@ -90,9 +90,11 @@ public class SendHospitalRequest extends javax.swing.JPanel {
         jScrollPane1.setViewportView(workRequestJTable);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("FUNDS COLLECTED:");
 
         fundcollected.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        fundcollected.setForeground(new java.awt.Color(255, 255, 255));
         fundcollected.setText("jLabel2");
 
         jButton1.setBackground(new java.awt.Color(255, 51, 51));
@@ -124,6 +126,7 @@ public class SendHospitalRequest extends javax.swing.JPanel {
         });
 
         jLabel17.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/contact.png"))); // NOI18N
         jLabel17.setText("HOSPITAL REQUEST MANAGEMENT");
         jLabel17.setBorder(new javax.swing.border.MatteBorder(null));
