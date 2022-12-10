@@ -16,7 +16,7 @@ import java.util.logging.*;
 
 /**
  *
- * @author raunak
+ * @author Yashwanth
  */
 public class ManageEnterpriseJPanel extends javax.swing.JPanel {
 
