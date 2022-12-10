@@ -9,7 +9,7 @@ import Business.Enterprise.Enterprise;
 
 /**
  *
- * @author InfiniteLoops
+ * @author samhitha
  */
 public class PatientTestRequest extends WorkRequest {
 

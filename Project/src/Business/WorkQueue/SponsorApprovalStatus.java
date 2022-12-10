@@ -8,7 +8,7 @@ package Business.WorkQueue;
 
 /**
  *
- * @author raunak
+ * @author samhitha
  */
 public class SponsorApprovalStatus extends WorkRequest{
     

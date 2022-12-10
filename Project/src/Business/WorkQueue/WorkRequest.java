@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  *
- * @author InfiniteLoops
+ * @author samhitha
  */
 public abstract class WorkRequest {
 
