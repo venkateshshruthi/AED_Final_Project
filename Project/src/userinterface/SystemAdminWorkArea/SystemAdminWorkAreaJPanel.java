@@ -178,7 +178,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         lblSelectedNode.setText("<View_selected_node>");
 
         btnManageNetwork.setBackground(new java.awt.Color(255, 0, 0));
-        btnManageNetwork.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        btnManageNetwork.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         btnManageNetwork.setForeground(new java.awt.Color(255, 255, 255));
         btnManageNetwork.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/SystemAdminWorkArea/Green/user_up.png"))); // NOI18N
         btnManageNetwork.setText("MANAGE NETWORK");
@@ -189,7 +189,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         btnManageEnterprise.setBackground(new java.awt.Color(255, 0, 51));
-        btnManageEnterprise.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        btnManageEnterprise.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         btnManageEnterprise.setForeground(new java.awt.Color(255, 255, 255));
         btnManageEnterprise.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/SystemAdminWorkArea/Green/user_up.png"))); // NOI18N
         btnManageEnterprise.setText("MANAGE ENTERPRISE");
@@ -200,7 +200,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         btnManageAdmin.setBackground(new java.awt.Color(255, 51, 51));
-        btnManageAdmin.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        btnManageAdmin.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         btnManageAdmin.setForeground(new java.awt.Color(255, 255, 255));
         btnManageAdmin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/SystemAdminWorkArea/Green/user_up.png"))); // NOI18N
         btnManageAdmin.setText("MANAGE ENTERPRISE ADMIN");
@@ -211,7 +211,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         btnPatientFundRequest.setBackground(new java.awt.Color(255, 51, 51));
-        btnPatientFundRequest.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        btnPatientFundRequest.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         btnPatientFundRequest.setForeground(new java.awt.Color(255, 255, 255));
         btnPatientFundRequest.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/SystemAdminWorkArea/Green/rss.png"))); // NOI18N
         btnPatientFundRequest.setText("PATIENT FUND REQUEST");
@@ -222,7 +222,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         btnHospitalRequest.setBackground(new java.awt.Color(255, 51, 102));
-        btnHospitalRequest.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        btnHospitalRequest.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         btnHospitalRequest.setForeground(new java.awt.Color(255, 255, 255));
         btnHospitalRequest.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/SystemAdminWorkArea/Green/contact.png"))); // NOI18N
         btnHospitalRequest.setText("SEND HOSPITAL REQUEST");
@@ -233,7 +233,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         jButton3.setBackground(new java.awt.Color(255, 0, 0));
-        jButton3.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/userinterface/SystemAdminWorkArea/Green/user_ok.png"))); // NOI18N
         jButton3.setText("PAY PATIENT BILLS");
@@ -263,7 +263,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
                             .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(btnHospitalRequest, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(btnPatientFundRequest, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnManageAdmin, javax.swing.GroupLayout.DEFAULT_SIZE, 297, Short.MAX_VALUE))))
+                            .addComponent(btnManageAdmin, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addContainerGap(375, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
