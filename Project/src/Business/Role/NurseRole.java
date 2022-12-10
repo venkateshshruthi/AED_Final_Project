@@ -16,7 +16,7 @@ import userinterface.AdministrativeCampRole.NurseEnterpriseChooserJPanel;
 
 /**
  *
- * @author InfiniteLoops
+ * @author Shruthi Venkatesh
  */
 public class NurseRole extends Role {
 

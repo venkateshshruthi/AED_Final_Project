@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author ashwinven
+ * @author Shruthi Venkatesh
  */
 public class PharmacyRole extends Role{
 

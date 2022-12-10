@@ -16,7 +16,7 @@ import userinterface.ReceptionistRole.ReceptionistWorkAreaJPanel;
 
 /**
  *
- * @author InfiniteLoops
+ * @author Shruthi Venkatesh
  */
 public class ReceptionistRole extends Role {
 
