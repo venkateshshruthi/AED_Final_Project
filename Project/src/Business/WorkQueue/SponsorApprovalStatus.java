@@ -14,9 +14,9 @@ public class SponsorApprovalStatus extends WorkRequest{
     
     private String testResult;
 
-    //test result
+    //issue resolved with test result
     public String getTestResult() {
-        return this;
+        return testResult;
     }
 
     public void setTestResult(String testResult) {
