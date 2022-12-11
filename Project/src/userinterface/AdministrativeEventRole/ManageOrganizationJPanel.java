@@ -94,7 +94,7 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         jLabel7 = new javax.swing.JLabel();
         deleteJButton = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(102, 102, 255));
 
         organizationJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -125,7 +125,9 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
             organizationJTable.getColumnModel().getColumn(1).setResizable(false);
         }
 
-        addJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        addJButton.setBackground(new java.awt.Color(255, 51, 51));
+        addJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        addJButton.setForeground(new java.awt.Color(255, 255, 255));
         addJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/add_user.png"))); // NOI18N
         addJButton.setText("ADD");
         addJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -142,9 +144,12 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         });
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Organization Type ");
 
-        backJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        backJButton.setBackground(new java.awt.Color(255, 51, 51));
+        backJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        backJButton.setForeground(new java.awt.Color(255, 255, 255));
         backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/prev-48.png"))); // NOI18N
         backJButton.setText("BACK");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -154,11 +159,14 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         });
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Blue/rss.png"))); // NOI18N
         jLabel7.setText("ORGANIZATION MANAGEMENT");
         jLabel7.setBorder(new javax.swing.border.MatteBorder(null));
 
-        deleteJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        deleteJButton.setBackground(new java.awt.Color(255, 51, 51));
+        deleteJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        deleteJButton.setForeground(new java.awt.Color(255, 255, 255));
         deleteJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/del_user.png"))); // NOI18N
         deleteJButton.setText("DELETE");
         deleteJButton.addActionListener(new java.awt.event.ActionListener() {

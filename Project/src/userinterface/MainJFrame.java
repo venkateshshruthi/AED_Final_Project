@@ -21,7 +21,7 @@ import java.util.logging.*;
 
 /**
  *
- * @author Lingfeng
+ * @author Shruthi Venkatesh
  */
 public class MainJFrame extends javax.swing.JFrame {
 
@@ -74,9 +74,10 @@ public class MainJFrame extends javax.swing.JFrame {
 
         jSplitPane1.setDividerLocation(250);
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel1.setBackground(new java.awt.Color(102, 102, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(255, 102, 0)));
 
+        loginJButton.setBackground(new java.awt.Color(255, 51, 51));
         loginJButton.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N
         loginJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/Login-55.png"))); // NOI18N
         loginJButton.setText("SIGN IN");
@@ -93,6 +94,7 @@ public class MainJFrame extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel2.setText("Password");
 
+        logoutJButton.setBackground(new java.awt.Color(255, 204, 204));
         logoutJButton.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N
         logoutJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/user_up.png"))); // NOI18N
         logoutJButton.setText("SIGN OUT");
@@ -119,6 +121,7 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
+        VolunteerRegistrationBtn.setBackground(new java.awt.Color(255, 51, 51));
         VolunteerRegistrationBtn.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N
         VolunteerRegistrationBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/signup-64.png"))); // NOI18N
         VolunteerRegistrationBtn.setText("JOIN US");
@@ -128,6 +131,7 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
+        SponsorRegistrationBtn.setBackground(new java.awt.Color(255, 51, 51));
         SponsorRegistrationBtn.setFont(new java.awt.Font("Verdana", 0, 16)); // NOI18N
         SponsorRegistrationBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/signup-64.png"))); // NOI18N
         SponsorRegistrationBtn.setText("REGISTER");

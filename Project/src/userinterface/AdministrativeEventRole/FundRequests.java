@@ -55,9 +55,11 @@ public class FundRequests extends javax.swing.JPanel {
         refreshJButton = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(102, 102, 255));
 
-        processJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        processJButton.setBackground(new java.awt.Color(255, 51, 51));
+        processJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        processJButton.setForeground(new java.awt.Color(255, 255, 255));
         processJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/add_user.png"))); // NOI18N
         processJButton.setText("CREATE EVENT");
         processJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -91,7 +93,9 @@ public class FundRequests extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(workRequestJTable);
 
-        backBtn.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        backBtn.setBackground(new java.awt.Color(255, 51, 51));
+        backBtn.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        backBtn.setForeground(new java.awt.Color(255, 255, 255));
         backBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/prev-48.png"))); // NOI18N
         backBtn.setText("BACK");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -100,6 +104,9 @@ public class FundRequests extends javax.swing.JPanel {
             }
         });
 
+        refreshJButton.setBackground(new java.awt.Color(255, 51, 51));
+        refreshJButton.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        refreshJButton.setForeground(new java.awt.Color(255, 255, 255));
         refreshJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/Button-Refresh-icon.png"))); // NOI18N
         refreshJButton.setText("REFRESH");
         refreshJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -109,6 +116,7 @@ public class FundRequests extends javax.swing.JPanel {
         });
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Blue/rss.png"))); // NOI18N
         jLabel1.setText("CREATE FUNDRAISER EVENT");
 

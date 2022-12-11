@@ -104,9 +104,11 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
         jLabel7 = new javax.swing.JLabel();
         deleteJButton = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(102, 102, 255));
 
-        createUserJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        createUserJButton.setBackground(new java.awt.Color(255, 51, 51));
+        createUserJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        createUserJButton.setForeground(new java.awt.Color(255, 255, 255));
         createUserJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/add_user.png"))); // NOI18N
         createUserJButton.setLabel("CREATE");
         createUserJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -115,7 +117,9 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel1.setBackground(new java.awt.Color(242, 51, 51));
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("User Name");
 
         userJTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -147,15 +151,21 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
             userJTable.getColumnModel().getColumn(1).setResizable(false);
         }
 
+        jLabel2.setBackground(new java.awt.Color(242, 51, 51));
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Password");
 
+        jLabel3.setBackground(new java.awt.Color(242, 51, 51));
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Employee");
 
         employeeJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        backjButton1.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        backjButton1.setBackground(new java.awt.Color(255, 51, 51));
+        backjButton1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        backjButton1.setForeground(new java.awt.Color(255, 255, 255));
         backjButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/prev-48.png"))); // NOI18N
         backjButton1.setText("BACK");
         backjButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -164,7 +174,9 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel5.setBackground(new java.awt.Color(242, 51, 51));
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Organization");
 
         organizationJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -174,7 +186,9 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel4.setBackground(new java.awt.Color(242, 51, 51));
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Role");
 
         roleJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -184,7 +198,9 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
         jLabel7.setText("MANAGE USER ACCOUNT");
         jLabel7.setBorder(new javax.swing.border.MatteBorder(null));
 
-        deleteJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        deleteJButton.setBackground(new java.awt.Color(255, 51, 51));
+        deleteJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        deleteJButton.setForeground(new java.awt.Color(255, 255, 255));
         deleteJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/add_user.png"))); // NOI18N
         deleteJButton.setText("DELETE");
         deleteJButton.addActionListener(new java.awt.event.ActionListener() {

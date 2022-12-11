@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 import java.util.logging.*;
 /**
  *
- * @author raunak
+ * @author Shruthi Venkatesh
  */
 public class CorporateWorkAreaJPanel extends javax.swing.JPanel {
 
@@ -53,14 +53,17 @@ public class CorporateWorkAreaJPanel extends javax.swing.JPanel {
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(102, 102, 255));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Blue/rss.png"))); // NOI18N
         jLabel1.setText("CORPORATE WORK AREA - FUND ROLE");
         jLabel1.setToolTipText("");
 
-        jButton1.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        jButton1.setBackground(new java.awt.Color(255, 51, 51));
+        jButton1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/user_up.png"))); // NOI18N
         jButton1.setText("ENROLL FUNDRAISER EVENTS");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -69,7 +72,9 @@ public class CorporateWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        jButton2.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        jButton2.setBackground(new java.awt.Color(255, 51, 51));
+        jButton2.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/payment-icon.png"))); // NOI18N
         jButton2.setText("DONATE FOR THE EVENT");
         jButton2.addActionListener(new java.awt.event.ActionListener() {

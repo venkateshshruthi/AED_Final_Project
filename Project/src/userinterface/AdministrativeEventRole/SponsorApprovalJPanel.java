@@ -86,7 +86,7 @@ public class SponsorApprovalJPanel extends javax.swing.JPanel {
         backJButton = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(102, 102, 255));
 
         workRequestJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -131,12 +131,16 @@ public class SponsorApprovalJPanel extends javax.swing.JPanel {
         });
 
         valueLabel.setFont(new java.awt.Font("Tahoma", 0, 22)); // NOI18N
+        valueLabel.setForeground(new java.awt.Color(255, 255, 255));
         valueLabel.setText("<value>");
 
         enterpriseLabel.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
+        enterpriseLabel.setForeground(new java.awt.Color(255, 255, 255));
         enterpriseLabel.setText("ENTERPRISE NAME :");
 
-        backJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        backJButton.setBackground(new java.awt.Color(255, 51, 51));
+        backJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        backJButton.setForeground(new java.awt.Color(255, 255, 255));
         backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/prev-48.png"))); // NOI18N
         backJButton.setText("BACK");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -146,6 +150,7 @@ public class SponsorApprovalJPanel extends javax.swing.JPanel {
         });
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Blue/rss.png"))); // NOI18N
         jLabel7.setText("SPONSOR REGISTRATION DETAILS");
         jLabel7.setBorder(new javax.swing.border.MatteBorder(null));
