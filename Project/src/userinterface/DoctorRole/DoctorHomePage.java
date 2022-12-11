@@ -98,11 +98,11 @@ public class DoctorHomePage extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel1)
-                .addGap(24, 24, 24)
+                .addGap(52, 52, 52)
                 .addComponent(manageOrganizationJButton1)
-                .addGap(40, 40, 40)
+                .addGap(27, 27, 27)
                 .addComponent(manageOrganizationJButton2)
-                .addContainerGap(232, Short.MAX_VALUE))
+                .addContainerGap(217, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
