@@ -73,13 +73,15 @@ public class CreateFundEvent extends javax.swing.JPanel {
         jLabel4 = new javax.swing.JLabel();
         eventApproxFund = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(102, 102, 255));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Blue/rss.png"))); // NOI18N
         jLabel1.setText("CREATE FUNDRAISER EVENT");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Event Name");
 
         eventName.addActionListener(new java.awt.event.ActionListener() {
@@ -89,15 +91,19 @@ public class CreateFundEvent extends javax.swing.JPanel {
         });
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("Street Address");
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("City");
 
         jLabel13.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("State");
 
         jLabel14.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("ZipCode");
 
         state.addActionListener(new java.awt.event.ActionListener() {
@@ -106,7 +112,9 @@ public class CreateFundEvent extends javax.swing.JPanel {
             }
         });
 
-        processJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        processJButton.setBackground(new java.awt.Color(245, 51, 51));
+        processJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        processJButton.setForeground(new java.awt.Color(255, 255, 255));
         processJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/user_ok.png"))); // NOI18N
         processJButton.setText("APPROVE");
         processJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -115,7 +123,9 @@ public class CreateFundEvent extends javax.swing.JPanel {
             }
         });
 
-        backJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        backJButton.setBackground(new java.awt.Color(245, 51, 51));
+        backJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        backJButton.setForeground(new java.awt.Color(255, 255, 255));
         backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/prev-48.png"))); // NOI18N
         backJButton.setText("BACK");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -125,9 +135,11 @@ public class CreateFundEvent extends javax.swing.JPanel {
         });
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Date");
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Fund To Be Collected(Approx)");
 
         eventApproxFund.addActionListener(new java.awt.event.ActionListener() {

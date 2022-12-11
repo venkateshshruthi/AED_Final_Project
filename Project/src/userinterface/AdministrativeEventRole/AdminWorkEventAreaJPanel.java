@@ -60,7 +60,9 @@ public class AdminWorkEventAreaJPanel extends javax.swing.JPanel {
         jLabel1.setText("FUNDRAISER ADMINISTRATOR HOME");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, -1, -1));
 
-        manageEmployeeJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        manageEmployeeJButton.setBackground(new java.awt.Color(255, 51, 51));
+        manageEmployeeJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        manageEmployeeJButton.setForeground(new java.awt.Color(255, 255, 255));
         manageEmployeeJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/user_up.png"))); // NOI18N
         manageEmployeeJButton.setText("MANAGE EMPLOYEE");
         manageEmployeeJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -70,7 +72,9 @@ public class AdminWorkEventAreaJPanel extends javax.swing.JPanel {
         });
         add(manageEmployeeJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 180, 280, 40));
 
-        manageOrganizationJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        manageOrganizationJButton.setBackground(new java.awt.Color(255, 51, 51));
+        manageOrganizationJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        manageOrganizationJButton.setForeground(new java.awt.Color(255, 255, 255));
         manageOrganizationJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/user_up.png"))); // NOI18N
         manageOrganizationJButton.setText("MANAGE ORGANIZATION");
         manageOrganizationJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -88,7 +92,9 @@ public class AdminWorkEventAreaJPanel extends javax.swing.JPanel {
         valueLabel.setFont(new java.awt.Font("Tahoma", 0, 22)); // NOI18N
         add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 80, 270, 30));
 
-        userJButton2.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        userJButton2.setBackground(new java.awt.Color(255, 51, 51));
+        userJButton2.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        userJButton2.setForeground(new java.awt.Color(255, 255, 255));
         userJButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/contact.png"))); // NOI18N
         userJButton2.setText("FUND REQUEST");
         userJButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -98,7 +104,9 @@ public class AdminWorkEventAreaJPanel extends javax.swing.JPanel {
         });
         add(userJButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 280, 280, 40));
 
-        userJButton3.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        userJButton3.setBackground(new java.awt.Color(255, 51, 51));
+        userJButton3.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        userJButton3.setForeground(new java.awt.Color(255, 255, 255));
         userJButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/user_up.png"))); // NOI18N
         userJButton3.setText("MANAGE USER");
         userJButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -108,7 +116,9 @@ public class AdminWorkEventAreaJPanel extends javax.swing.JPanel {
         });
         add(userJButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 230, 280, 40));
 
-        jButton1.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        jButton1.setBackground(new java.awt.Color(255, 51, 51));
+        jButton1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/user_up.png"))); // NOI18N
         jButton1.setText("FUNDRAISER EVENT");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -118,7 +128,9 @@ public class AdminWorkEventAreaJPanel extends javax.swing.JPanel {
         });
         add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 330, 280, 40));
 
-        userJButton1.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        userJButton1.setBackground(new java.awt.Color(255, 51, 51));
+        userJButton1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        userJButton1.setForeground(new java.awt.Color(255, 255, 255));
         userJButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/user_ok.png"))); // NOI18N
         userJButton1.setText("SPONSOR APPROVAL");
         userJButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -128,7 +140,9 @@ public class AdminWorkEventAreaJPanel extends javax.swing.JPanel {
         });
         add(userJButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 430, 280, 40));
 
-        userJButton4.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        userJButton4.setBackground(new java.awt.Color(255, 51, 51));
+        userJButton4.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        userJButton4.setForeground(new java.awt.Color(255, 255, 255));
         userJButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/user_ok.png"))); // NOI18N
         userJButton4.setText("VOLUNTEER APPROVAL");
         userJButton4.addActionListener(new java.awt.event.ActionListener() {

@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author ashwinven
+ * @author Shruthi Venkatesh
  */
 public class AboutUsJPanel extends javax.swing.JPanel {
     
@@ -60,17 +60,18 @@ public class AboutUsJPanel extends javax.swing.JPanel {
         backbtn = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(102, 102, 255));
         setBorder(new javax.swing.border.MatteBorder(null));
 
         jTextArea1.setEditable(false);
+        jTextArea1.setBackground(new java.awt.Color(242, 51, 51));
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        jTextArea1.setForeground(new java.awt.Color(255, 255, 255));
         jTextArea1.setRows(5);
-        jTextArea1.setText("To address the health issues of homeless people is a very challenging health problem in recent year as US Department of Housing and Urban Development (HUD) reported that 564,000 people \nare homeless in the United States. In the recent years the lack of health insurance is the most common reason for homeless people to not get access to proper healthcare. \n\nPeople Welfare Organization strives to address this issue in the best way possible. So PWO organizes fund raiser events, raise funds for those who cannot afford health cards and provides \nhospital treatment of utmost quality.\n\nOur sincere thanks to our beloved volunteers, sponsors, doctors, nurses,lab assistants and receptionist for making this initiative a grand success.\n\nContact Us: +1(857)544-1289  \nEmail: pwo.usapproval@gmail.com"); // NOI18N
+        jTextArea1.setText("Addressing the needs of destitutes in any city is a concern of welfare and health. \n\nGiven that not all these people can afford the access to the right healthcare services, and also taking into consideration the fact that these people are unlikely to have health insurance, \nEasy Street works as a welfare organization to help organize fund raisers for the houseless and refugees struck by calamity or serious health issues.\n\n\nOur sincere thanks to our beloved volunteers, sponsors, doctors, nurses and lab assistants for making this initiative a grand success."); // NOI18N
         jScrollPane1.setViewportView(jTextArea1);
 
-        backbtn.setBackground(new java.awt.Color(255, 255, 255));
         backbtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/prev-48.png"))); // NOI18N
         backbtn.setText("BACK");
         backbtn.addActionListener(new java.awt.event.ActionListener() {
@@ -80,41 +81,39 @@ public class AboutUsJPanel extends javax.swing.JPanel {
         });
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Blue/contact.png"))); // NOI18N
-        jLabel7.setText("PEOPLE WELFARE ORGANIZATION");
+        jLabel7.setText("EASY STREET WELFARE ORGANIZATION");
         jLabel7.setBorder(new javax.swing.border.MatteBorder(null));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane1)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(580, Short.MAX_VALUE)
-                .addComponent(imageLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 333, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(160, 160, 160))
-            .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(backbtn)
-                        .addGap(247, 247, 247)
-                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 437, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 93, Short.MAX_VALUE)
+                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 437, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(imageLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 333, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(160, 160, 160))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(backbtn)
                     .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(29, 29, 29)
+                .addGap(15, 15, 15)
                 .addComponent(imageLabel)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 151, Short.MAX_VALUE)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 319, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(8, 8, 8))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 28, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 319, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

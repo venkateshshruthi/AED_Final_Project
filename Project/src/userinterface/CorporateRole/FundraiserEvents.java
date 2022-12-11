@@ -20,7 +20,7 @@ import java.util.logging.*;
 
 /**
  *
- * @author jo-ji
+ * @author Shruthi Venkatesh
  */
 public class FundraiserEvents extends javax.swing.JPanel {
 
@@ -57,7 +57,9 @@ public class FundraiserEvents extends javax.swing.JPanel {
         jButton2 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(102, 102, 255));
+        setForeground(new java.awt.Color(255, 255, 255));
+        setFocusCycleRoot(true);
 
         workRequestJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -84,7 +86,9 @@ public class FundraiserEvents extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(workRequestJTable);
 
-        refreshTestJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        refreshTestJButton.setBackground(new java.awt.Color(255, 51, 51));
+        refreshTestJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        refreshTestJButton.setForeground(new java.awt.Color(255, 255, 255));
         refreshTestJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/Button-Refresh-icon.png"))); // NOI18N
         refreshTestJButton.setText("REFRESH");
         refreshTestJButton.setToolTipText("REFRESH");
@@ -94,7 +98,9 @@ public class FundraiserEvents extends javax.swing.JPanel {
             }
         });
 
-        requestTestJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        requestTestJButton.setBackground(new java.awt.Color(255, 52, 52));
+        requestTestJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        requestTestJButton.setForeground(new java.awt.Color(255, 255, 255));
         requestTestJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/help-36.png"))); // NOI18N
         requestTestJButton.setText("JOIN EVENT");
         requestTestJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -103,7 +109,9 @@ public class FundraiserEvents extends javax.swing.JPanel {
             }
         });
 
-        jButton2.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        jButton2.setBackground(new java.awt.Color(255, 52, 52));
+        jButton2.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/prev-48.png"))); // NOI18N
         jButton2.setText("BACK");
         jButton2.setToolTipText("");
@@ -114,6 +122,7 @@ public class FundraiserEvents extends javax.swing.JPanel {
         });
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Blue/rss.png"))); // NOI18N
         jLabel7.setText("JOIN FUNDRAISING EVENT");
         jLabel7.setBorder(new javax.swing.border.MatteBorder(null));

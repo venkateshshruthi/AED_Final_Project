@@ -18,7 +18,7 @@ import java.util.logging.*;
 
 /**
  *
- * @author jo-ji
+ * @author Shruthi Venkatesh
  */
 public class DonateFunds extends javax.swing.JPanel {
 
@@ -56,9 +56,11 @@ public class DonateFunds extends javax.swing.JPanel {
         jLabel7 = new javax.swing.JLabel();
         backJButton = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(102, 102, 255));
 
-        requestTestJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        requestTestJButton.setBackground(new java.awt.Color(255, 51, 51));
+        requestTestJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        requestTestJButton.setForeground(new java.awt.Color(255, 255, 255));
         requestTestJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/user_download.png"))); // NOI18N
         requestTestJButton.setText("PAY FUNDS");
         requestTestJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -67,7 +69,9 @@ public class DonateFunds extends javax.swing.JPanel {
             }
         });
 
-        refreshTestJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        refreshTestJButton.setBackground(new java.awt.Color(255, 51, 51));
+        refreshTestJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        refreshTestJButton.setForeground(new java.awt.Color(255, 255, 255));
         refreshTestJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Green/Button-Refresh-icon.png"))); // NOI18N
         refreshTestJButton.setText("REFRESH");
         refreshTestJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -102,11 +106,14 @@ public class DonateFunds extends javax.swing.JPanel {
         jScrollPane2.setViewportView(workRequestJTable1);
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Blue/rss.png"))); // NOI18N
         jLabel7.setText("FUND DONATION");
         jLabel7.setBorder(new javax.swing.border.MatteBorder(null));
 
-        backJButton.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        backJButton.setBackground(new java.awt.Color(255, 51, 51));
+        backJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        backJButton.setForeground(new java.awt.Color(255, 255, 255));
         backJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/prev-48.png"))); // NOI18N
         backJButton.setText("BACK");
         backJButton.addActionListener(new java.awt.event.ActionListener() {

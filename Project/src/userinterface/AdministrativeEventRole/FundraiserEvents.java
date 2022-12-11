@@ -58,9 +58,12 @@ public class FundraiserEvents extends javax.swing.JPanel {
         pieBtn = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(102, 102, 255));
+        setForeground(new java.awt.Color(255, 255, 255));
 
-        jButton2.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        jButton2.setBackground(new java.awt.Color(255, 51, 51));
+        jButton2.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/prev-48.png"))); // NOI18N
         jButton2.setText("BACK");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -94,7 +97,9 @@ public class FundraiserEvents extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(workRequestJTable);
 
-        pieBtn.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
+        pieBtn.setBackground(new java.awt.Color(255, 51, 51));
+        pieBtn.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        pieBtn.setForeground(new java.awt.Color(255, 255, 255));
         pieBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/Add-32.png"))); // NOI18N
         pieBtn.setText("GENERATE BAR CHART");
         pieBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -104,6 +109,7 @@ public class FundraiserEvents extends javax.swing.JPanel {
         });
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Blue/rss.png"))); // NOI18N
         jLabel1.setText("FUNDRAISER EVENTS");
 
