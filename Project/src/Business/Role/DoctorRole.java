@@ -15,7 +15,7 @@ import userinterface.DoctorRole.DoctorHomePage;
 
 /**
  *
- * @author raunak
+ * @author Shruthi Venkatesh
  */
 public class DoctorRole extends Role {
 
