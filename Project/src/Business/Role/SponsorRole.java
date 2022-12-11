@@ -7,7 +7,7 @@ package Business.Role;
 
 /**
  *
- * @author ashwinven
+ * @author Shruthi Venkatesh
  */
 public class SponsorRole {
     
