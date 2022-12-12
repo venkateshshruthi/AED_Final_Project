@@ -41,3 +41,5 @@ Combined efforts - Media enterprise, tying the components together, bug fixes th
 **_Facilitating a quick Hospital Registration of those who are Derelict and Suffer from Serious Illnesses:_** <br />
 ~Have the volunteers register a hospital for a sick and unwell individual. <br />
 ~Allow the volunteers to assist the patient in filling out their information during registration. <br />
+
+
