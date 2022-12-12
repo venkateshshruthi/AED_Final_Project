@@ -1,9 +1,9 @@
 # Easy Street Welfare Organization
 
-**Problem Statement** <br /> 
+**Current Problem ** <br /> 
 The absence of a well-organized health care system is to blame for the declining health of the derelict in many nations. People who are orphaned or vagrants are at a disproportionately greater risk for both acute and chronic illnesses, especially when struck by natural/man-made calamities.
 
-**Solution** <br />
+**Our Solution** <br />
 We have attempted to coordinate hospitals, citizen committees, and fundraising organizations to make health treatment for these people (who are also unlikely to have insurance cards) more accessible. Our approach was to set up a interrelated financial and assistance framework to pay for their medical costs. <br />
 Also, the hospital assists in treating the condition determined based on the severity decided by various healthcare organizations.
 
