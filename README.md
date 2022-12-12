@@ -33,7 +33,11 @@ Combined efforts - Media enterprise, tying the components together, bug fixes th
 ~To identify the underlying cause of the sickness, provide test results from the lab. <br />
 ~Cater nurses to help ensure medicine is distributed quickly. <br />
 
-**_Raising a Sizable Sum of Money to Provide Widespread Treatment for Patients who are Living Rough_** <br />
+**_Raising a Sizable Sum of Money to Provide Widespread Treatment for Patients who are Living Rough:_** <br />
 ~Having the Event Volunteers devise miscellaneous Fundraising Events to amass funds for doctoring the decaying conditions of the destitute. <br />
 ~Having a user-friendly application for sponsors to sign up for fundraising activities. <br />
 ~Having the admin of the health camp sanction finances to care for the medicinal needs of the destitute cases. <br />
+
+**_Facilitating a quick Hospital Registration of those who are Derelict and Suffer from Serious Illnesses:_** <br />
+~Have the volunteers register a hospital for a sick and unwell individual. <br />
+~Allow the volunteers to assist the patient in filling out their information during registration. <br />
