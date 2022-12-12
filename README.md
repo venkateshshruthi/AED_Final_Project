@@ -53,7 +53,7 @@ Combined efforts - Media enterprise, tying the components together, bug fixes th
 **_Event Admin Screen_** <br />
 ![Event admin screen](https://user-images.githubusercontent.com/114696080/206959894-9f154047-0b98-4539-bfdc-e3576aef7e81.png)
 
-**_Health Camp Admin Screen _** <br />
+**_HealthCamp Admin Screen_** <br />
 ![Health camp admin camp screen](https://user-images.githubusercontent.com/114696080/206959991-fae16651-2bff-49ef-9ad4-a1a5d5ccbb00.png)
 
 **_Patient Registration_** <br />
