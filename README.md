@@ -1,13 +1,13 @@
-#Easy Street Welfare Organization
+**Easy Street Welfare Organization**
 
-##Problem Statement
+**Problem Statement**
 The absence of a well-organized health care system is to blame for the declining health of the derelict in many nations. People who are orphaned or vagrants are at a disproportionately greater risk for both acute and chronic illnesses, especially when struck by natural/man-made calamities.
 
-##Solution
+**Solution**
 We have attempted to coordinate hospitals, citizen committees, and fundraising organizations to make health treatment for these people (who are also unlikely to have insurance cards) more accessible. Our approach was to set up a interrelated financial and assistance framework to pay for their medical costs.
 Also, the hospital assists in treating the condition determined based on the severity decided by various healthcare organizations. 
 
-##Team and contribution
+**Team and contribution**
 Yashwant Pokala (002769438) - Health Camp Enterprise
 Shruthi Venkatesh (002766657) - Hospital Enterprise
 Samhitha Mereddy (002796140) - Event Enterprise
