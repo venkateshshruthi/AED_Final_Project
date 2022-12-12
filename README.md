@@ -8,9 +8,9 @@ We have attempted to coordinate hospitals, citizen committees, and fundraising o
 Also, the hospital assists in treating the condition determined based on the severity decided by various healthcare organizations.
 
 **Team and contribution**
-Yashwant Pokala (002769438) - Health Camp Enterprise __
-Shruthi Venkatesh (002766657) - Hospital Enterprise __
-Samhitha Mereddy (002796140) - Event Enterprise __
+Yashwant Pokala (002769438) - Health Camp Enterprise <br />
+Shruthi Venkatesh (002766657) - Hospital Enterprise <br />
+Samhitha Mereddy (002796140) - Event Enterprise <br />
 Combined efforts - Media enterprise, tying the components together, bug fixes throughout the project
 
 
