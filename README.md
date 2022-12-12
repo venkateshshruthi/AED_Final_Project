@@ -42,4 +42,9 @@ Combined efforts - Media enterprise, tying the components together, bug fixes th
 ~Have the volunteers register a hospital for a sick and unwell individual. <br />
 ~Allow the volunteers to assist the patient in filling out their information during registration. <br />
 
+#### Implementation ####
+
+**Admin Panel** <br />
+
+![Admin Panel](https://user-images.githubusercontent.com/114696080/206959524-3e0fef3c-113f-41df-885f-e8ba362a8fa3.png)
 
