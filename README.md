@@ -26,3 +26,9 @@ Combined efforts - Media enterprise, tying the components together, bug fixes th
 
 ![ClassCont](https://user-images.githubusercontent.com/114696080/206938966-2cbc5948-4631-44d0-a55f-5ce9a4d953c1.png)
 
+**Use Cases** <br />
+
+**_Providing Clinical Aid For The Destitute:_** <br />
+~Give the patient's medical condition a professional diagnosis and treatment from a doctor.
+~To identify the underlying cause of the sickness, provide test results from the lab.
+~Cater nurses to help ensure medicine is distributed quickly.
