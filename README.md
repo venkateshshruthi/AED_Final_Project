@@ -32,3 +32,8 @@ Combined efforts - Media enterprise, tying the components together, bug fixes th
 ~Give the patient's medical condition a professional diagnosis and treatment from a doctor. <br />
 ~To identify the underlying cause of the sickness, provide test results from the lab. <br />
 ~Cater nurses to help ensure medicine is distributed quickly. <br />
+
+**_Raising a Sizable Sum of Money to Provide Widespread Treatment for Patients who are Living Rough_** <br />
+~Having the Event Volunteers devise miscellaneous Fundraising Events to amass funds for doctoring the decaying conditions of the destitute. <br />
+~Having a user-friendly application for sponsors to sign up for fundraising activities. <br />
+~Having the admin of the health camp sanction finances to care for the medicinal needs of the destitute cases. <br />
