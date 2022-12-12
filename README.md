@@ -29,6 +29,6 @@ Combined efforts - Media enterprise, tying the components together, bug fixes th
 **Use Cases** <br />
 
 **_Providing Clinical Aid For The Destitute:_** <br />
-~Give the patient's medical condition a professional diagnosis and treatment from a doctor.
-~To identify the underlying cause of the sickness, provide test results from the lab.
-~Cater nurses to help ensure medicine is distributed quickly.
+~Give the patient's medical condition a professional diagnosis and treatment from a doctor. <br />
+~To identify the underlying cause of the sickness, provide test results from the lab. <br />
+~Cater nurses to help ensure medicine is distributed quickly. <br />
