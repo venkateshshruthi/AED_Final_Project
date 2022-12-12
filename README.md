@@ -44,7 +44,15 @@ Combined efforts - Media enterprise, tying the components together, bug fixes th
 
 #### Implementation ####
 
-**Admin Panel** <br />
-
+**_Admin Panel_** <br />
 ![Admin Panel](https://user-images.githubusercontent.com/114696080/206959524-3e0fef3c-113f-41df-885f-e8ba362a8fa3.png)
+
+**_Doctor Home Screen_** <br />
+![doctor home screen](https://user-images.githubusercontent.com/114696080/206959746-6a392ebc-2ed6-4b67-a8cb-4b371cd9f7ae.png)
+
+**_Event Admin Screen_** <br />
+![Event admin screen](https://user-images.githubusercontent.com/114696080/206959894-9f154047-0b98-4539-bfdc-e3576aef7e81.png)
+
+**_Health Camp Admin Screen _** <br />
+![Health camp admin camp screen](https://user-images.githubusercontent.com/114696080/206959991-fae16651-2bff-49ef-9ad4-a1a5d5ccbb00.png)
 
