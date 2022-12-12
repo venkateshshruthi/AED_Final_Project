@@ -56,3 +56,8 @@ Combined efforts - Media enterprise, tying the components together, bug fixes th
 **_Health Camp Admin Screen _** <br />
 ![Health camp admin camp screen](https://user-images.githubusercontent.com/114696080/206959991-fae16651-2bff-49ef-9ad4-a1a5d5ccbb00.png)
 
+**_Patient Registration_** <br />
+![patient registration nurse](https://user-images.githubusercontent.com/114696080/206960246-6c9718c2-1409-4efd-8c4e-33c3fad9cca8.png)
+
+**_Enrollment Status_** <br />
+![Screenshot (125)](https://user-images.githubusercontent.com/114696080/206960440-ce37c487-7740-4fb9-995e-26edb7e4c33d.png)
