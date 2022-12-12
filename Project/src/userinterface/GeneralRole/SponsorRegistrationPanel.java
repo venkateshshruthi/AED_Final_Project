@@ -21,7 +21,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author InfiniteLoops
+ * @author Yashwanth
  */
 public class SponsorRegistrationPanel extends javax.swing.JPanel {
 
@@ -108,9 +108,10 @@ public class SponsorRegistrationPanel extends javax.swing.JPanel {
         dob = new com.toedter.calendar.JDateChooser();
         password = new javax.swing.JPasswordField();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(102, 102, 255));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Name");
 
         fName.addActionListener(new java.awt.event.ActionListener() {
@@ -120,17 +121,23 @@ public class SponsorRegistrationPanel extends javax.swing.JPanel {
         });
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 22)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Blue/rss.png"))); // NOI18N
         jLabel1.setText("Welcome to Sponsor Registration");
         jLabel1.setToolTipText("");
         jLabel1.setBorder(new javax.swing.border.MatteBorder(null));
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Username");
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Password");
 
+        SubmitBtn.setBackground(new java.awt.Color(255, 51, 51));
+        SubmitBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        SubmitBtn.setForeground(new java.awt.Color(255, 255, 255));
         SubmitBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/free_button_icons_icons_pack_120624/Yellow/add_user.png"))); // NOI18N
         SubmitBtn.setText("SUBMIT");
         SubmitBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -146,11 +153,13 @@ public class SponsorRegistrationPanel extends javax.swing.JPanel {
         });
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Role");
 
         roleCombo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "GeneralRole", "CorporateRole", "StudentRole" }));
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("Email ID");
 
         email.addActionListener(new java.awt.event.ActionListener() {
@@ -160,6 +169,7 @@ public class SponsorRegistrationPanel extends javax.swing.JPanel {
         });
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Phone Number");
 
         number.addActionListener(new java.awt.event.ActionListener() {
@@ -169,9 +179,11 @@ public class SponsorRegistrationPanel extends javax.swing.JPanel {
         });
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("DOB");
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("SSN");
 
         ssn.addActionListener(new java.awt.event.ActionListener() {
@@ -181,6 +193,7 @@ public class SponsorRegistrationPanel extends javax.swing.JPanel {
         });
 
         jLabel13.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("Passport No");
 
         passport.addActionListener(new java.awt.event.ActionListener() {
@@ -190,6 +203,7 @@ public class SponsorRegistrationPanel extends javax.swing.JPanel {
         });
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Address");
 
         address.setColumns(20);
